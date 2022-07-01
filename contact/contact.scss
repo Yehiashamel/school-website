@@ -15,6 +15,7 @@
          grid-template-columns: 1fr 1fr;
          img{
             padding: 0 10%;
+            width: 90%;
          }
          form{
             border: 1px solid #000000bf;
@@ -35,6 +36,12 @@
                 margin:0px 10px;
                 color: white;
             }
+            .btn{
+                width: 100%;
+                display: grid;
+                justify-items: center;
+                margin-top: 10px;
+            }
             a{
             display: flex;
             align-items: center;
@@ -53,7 +60,7 @@
          }
    }
 }
-@media screen and(max-width:1000px) {
+@media screen and(max-width:723px) {
     #Contact{
         .container-contact{
             grid-template-columns: 1fr;

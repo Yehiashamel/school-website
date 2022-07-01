@@ -17,6 +17,7 @@
 }
 #Contact .container-contact img {
   padding: 0 10%;
+  width: 90%;
 }
 #Contact .container-contact form {
   border: 1px solid rgba(0, 0, 0, 0.7490196078);
@@ -38,6 +39,12 @@
   margin: 0px 10px;
   color: white;
 }
+#Contact .container-contact form .btn {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  margin-top: 10px;
+}
 #Contact .container-contact form a {
   display: flex;
   align-items: center;
@@ -54,7 +61,7 @@
   background-color: black;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 723px) {
   #Contact .container-contact {
     grid-template-columns: 1fr;
     justify-items: center;
