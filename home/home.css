@@ -1,0 +1,117 @@
+#Home {
+  background-color: rgba(0, 0, 0, 0.8196078431);
+}
+#Home #container-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+#Home #container-home .container-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+#Home #container-home .container-text h2 {
+  font-size: 50px;
+  color: white;
+}
+#Home #container-home .container-text h2 span {
+  color: #16a085;
+}
+#Home #container-home .container-text a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.8196078431);
+  border-radius: 15px;
+  width: 130px;
+  margin: 10px;
+  transition: 0.6s;
+}
+#Home #container-home .container-text a:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8196078431);
+}
+#Home #container-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 141px;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+}
+#Home #container-stats .stat {
+  border: 1px solid rgba(0, 0, 0, 0.8196078431);
+  margin: 5px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(128, 128, 128, 0.5019607843);
+  height: 50%;
+  align-content: center;
+  justify-content: center;
+}
+#Home #container-stats .stat h4 {
+  font-size: 23px;
+}
+#Home #container-stats .stat i {
+  color: #16a085;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 723px) {
+  ul {
+    display: none;
+  }
+
+  #Home #container-home {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #Home #container-stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 500px;
+  }
+  #Home #container-stats .stat-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+  #Home #container-stats .stat-text h4 {
+    margin: 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 723px) {
+  ul {
+    display: none;
+  }
+
+  #Home img {
+    padding: 10%;
+    width: 100%;
+  }
+  #Home #container-home {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #Home #container-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 255px;
+  }
+  #Home #container-stats .stat-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+  #Home #container-stats .stat-text h4 {
+    margin: 20px;
+  }
+}/*# sourceMappingURL=home.css.map */

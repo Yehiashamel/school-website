@@ -1,0 +1,123 @@
+#Home{
+    background-color:#000000d1 ;
+
+#container-home{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    .container-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+        h2{
+            font-size: 50px;
+            color: white;
+            span{
+                color:#16a085;
+            }
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            border: 1px solid #000000d1;
+            border-radius: 15px;
+            width: 130px;
+            margin: 10px;
+            transition: 0.6s;
+        }
+        a:hover{
+            background-color: white;
+            color: #000000d1;
+        }
+    }
+}
+#container-stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 141px;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    .stat{
+        border: 1px solid #000000d1;
+        margin: 5px;
+        color:white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #80808080;
+        height: 50%;
+        align-content: center;
+        justify-content: center;
+        h4{
+            font-size: 23px;
+        }
+        i{
+            color: #16a085;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+  }
+}
+@media screen and (max-width:723px) {
+    ul{
+        display: none;
+    }
+    #Home{
+        
+     #container-home{
+        display: flex;
+        flex-direction: column-reverse;
+       
+    }
+    #container-stats{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 500px;
+        .stat-text{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 20px;
+            h4{
+                margin: 20px;
+            }
+        }
+    }
+}
+}
+
+@media screen and (min-width:576px) and (max-width:723px){
+    ul{
+        display: none;
+    }
+    #Home{
+        img{
+            padding: 10%;
+            width: 100%;
+        }
+     #container-home{
+        display: flex;
+        flex-direction: column-reverse;
+       
+    }
+    #container-stats{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 255px;
+        .stat-text{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 20px;
+            h4{
+                margin: 20px;
+            }
+        }
+    }
+}
+}

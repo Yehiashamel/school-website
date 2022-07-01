@@ -1,0 +1,50 @@
+#Courses {
+  background-color: rgba(0, 0, 0, 0.8196078431);
+}
+#Courses h2 {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px 20px;
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: white;
+}
+#Courses h2 span {
+  color: #16a085;
+}
+#Courses .container-courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 20px 0px;
+}
+#Courses .container-courses .course {
+  border: 1px solid rgba(0, 0, 0, 0.8196078431);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px 20px;
+}
+#Courses .container-courses .course img {
+  width: 89%;
+}
+#Courses .container-courses .course h4 {
+  color: white;
+}
+#Courses .container-courses .course p {
+  margin: 10px 10px;
+  color: gray;
+}
+
+@media screen and (max-width: 575px) {
+  #Courses .container-courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 800px) {
+  #Courses .container-courses {
+    grid-template-columns: 1fr 1fr;
+  }
+}/*# sourceMappingURL=courses.css.map */

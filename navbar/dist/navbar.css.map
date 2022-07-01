@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["navbar.scss"],"sourcesContent":["nav{\r\n    width: 100%;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    height: 100px;\r\n}"],"file":"navbar.css"}
