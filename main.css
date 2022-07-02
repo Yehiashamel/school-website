@@ -323,6 +323,9 @@ nav ul li a {
     grid-template-columns: 1fr 1fr;
   }
 }
+#Contact {
+  background-color: rgba(0, 0, 0, 0.7490196078);
+}
 #Contact h2 {
   font-size: 50px;
   color: white;
@@ -333,7 +336,62 @@ nav ul li a {
 #Contact h2 span {
   color: #16a085;
 }
+#Contact .container-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#Contact .container-contact img {
+  padding: 0 10%;
+  width: 90%;
+}
+#Contact .container-contact form {
+  border: 1px solid rgba(0, 0, 0, 0.7490196078);
+  width: 90%;
+  height: 400px;
+}
+#Contact .container-contact form h3 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+}
+#Contact .container-contact form input {
+  width: 95%;
+  margin: 10px;
+  height: 40px;
+}
+#Contact .container-contact form span {
+  margin: 0px 10px;
+  color: white;
+}
+#Contact .container-contact form .btn {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  margin-top: 10px;
+}
+#Contact .container-contact form a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.7490196078);
+  margin: 10px 40%;
+  width: 160px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7490196078);
+  transition: 0.6s;
+}
+#Contact .container-contact form a:hover {
+  color: white;
+  background-color: black;
+}
 
+@media screen and (max-width: 723px) {
+  #Contact .container-contact {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
 #Reviews {
   background-color: rgba(0, 0, 0, 0.8196078431);
 }
@@ -399,4 +457,8 @@ nav ul li a {
 
 html {
   font-size: 18px;
+}
+
+body {
+  overflow-x: hidden;
 }/*# sourceMappingURL=main.css.map */
