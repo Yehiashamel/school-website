@@ -344,10 +344,13 @@ nav ul li a {
   padding: 0 10%;
   width: 90%;
 }
+#Contact .container-contact div {
+  height: fit-content;
+}
 #Contact .container-contact form {
   border: 1px solid rgba(0, 0, 0, 0.7490196078);
-  width: 90%;
-  height: 400px;
+  height: 100%;
+  margin: 10px;
 }
 #Contact .container-contact form h3 {
   text-align: center;
@@ -390,6 +393,13 @@ nav ul li a {
   #Contact .container-contact {
     grid-template-columns: 1fr;
     justify-items: center;
+  }
+  #Contact .container-contact form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
   }
 }
 #Reviews {
