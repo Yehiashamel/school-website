@@ -19,6 +19,9 @@
          }
          div{
             height: fit-content;
+            display: flex;
+            align-items: center;
+            width: 100%;
          }
          form{
             border: 1px solid #000000bf;
@@ -46,9 +49,6 @@
                 margin-top: 10px;
             }
             a{
-            display: flex;
-            align-items: center;
-            justify-content: center;
             border: 1px solid #000000bf;
             margin: 10px 40%;
             width: 160px;
@@ -69,9 +69,6 @@
             grid-template-columns: 1fr;
             justify-items: center;
             form{
-                display: flex;
-                align-items: center;
-                flex-direction: column;
                 height: 100%;
                 width: 100%;
             }

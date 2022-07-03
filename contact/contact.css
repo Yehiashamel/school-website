@@ -21,6 +21,9 @@
 }
 #Contact .container-contact div {
   height: fit-content;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 #Contact .container-contact form {
   border: 1px solid rgba(0, 0, 0, 0.7490196078);
@@ -49,9 +52,6 @@
   margin-top: 10px;
 }
 #Contact .container-contact form a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid rgba(0, 0, 0, 0.7490196078);
   margin: 10px 40%;
   width: 160px;
@@ -70,9 +70,6 @@
     justify-items: center;
   }
   #Contact .container-contact form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     height: 100%;
     width: 100%;
   }
