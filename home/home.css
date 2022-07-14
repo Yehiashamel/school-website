@@ -67,7 +67,6 @@
   ul {
     display: none;
   }
-
   #Home #container-home {
     display: flex;
     flex-direction: column-reverse;
@@ -91,7 +90,6 @@
   ul {
     display: none;
   }
-
   #Home img {
     padding: 10%;
     width: 100%;
