@@ -58,6 +58,7 @@
   text-decoration: none;
   color: rgba(0, 0, 0, 0.7490196078);
   transition: 0.6s;
+  text-align: center;
 }
 #Contact .container-contact form a:hover {
   color: white;
