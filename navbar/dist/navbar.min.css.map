@@ -1,1 +1,0 @@
-{"version":3,"sources":["navbar.scss"],"names":[],"mappings":"AAAA,IACE,MAAO,KACP,QAAS,KACT,gBAAiB,cACjB,YAAa,OACb,OAAQ","file":"navbar.min.css","sourcesContent":["nav{\r\n    width: 100%;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    height: 100px;\r\n}"]}
